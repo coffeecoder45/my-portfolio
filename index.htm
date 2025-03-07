@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Ujwal Gautam</title>
+    <link rel="icon" type="image/x-icon" href="logoicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function showContact() {
+            document.getElementById('contact-page').style.display = 'block';
+            document.getElementById('main-content').style.display = 'none';
+            document.getElementById('footer').style.display = 'none';
+        }
+        function showHome() {
+            document.getElementById('contact-page').style.display = 'none';
+            document.getElementById('main-content').style.display = 'block';
+            document.getElementById('footer').style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.htm" class="logo" onclick="showhome()"><img src="Logo.png"alt="nav logo" height="100px" width="150px"></a>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#" onclick="showContact()">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="main-content">
+        <section class="hero">
+            <div class="content">
+                <a href="about.html">
+                <img src="nature.webp" alt="picutres of nature">
+            </a>
+                <h1>Welcome to My Portfolio</h1>
+                <p>Hi, I'm Ujwal Gautam, a passionate developer and designer.</p>
+            </div>
+        </section>
+        
+        <section id="portfolio" class="portfolio">
+            <h2>My Work</h2>
+            <div class="grid">
+                <div class="project"><a href="target" project 1</div>
+                <div class="project">Project 2</div>
+                <div class="project">Project 3</div>
+            </div>
+        </section>
+    </div>
+    
+    <div id="contact-page" class="contact-page">
+        <h1>Do you think...</h1>
+        <p>I might be the right creative for your project? Or do you just have any other<br> questions about me and my work?<br>
+            Then don’t hesitate and just leave me a message: </p>
+        <p>Email: heroadhikari667@yahoo.com</p>
+        <p>or give me a call:+977 9845256647</p>
+        <p>Follow me on <a href="" target="_blank"><img src="instagram logo.png" alt="instagram logo" width="20px"></a></p>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 UjwalGautam. All rights reserved.</p>
+    </footer>
+</body>
+</html>
