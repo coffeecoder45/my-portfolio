@@ -20,7 +20,7 @@ nav {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: white;
+    background: #f3f3f3;
     text-decoration: none;
     cursor: pointer;
 }
