@@ -35,9 +35,6 @@ ul li a {
     color: rgb(51, 51, 51);
     text-decoration: none;
 }
-nav a:hover {
-    text-decoration: underline;
-}
 .hero {
     height: 100vh;
     display: flex;
