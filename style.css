@@ -23,6 +23,7 @@ nav {
     background: #f3f3f3;
     text-decoration: none;
     cursor: pointer;
+    left:5px;
 }
 ul {
     list-style: none;
